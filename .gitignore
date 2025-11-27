@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+.tox/
+.coverage
+.ipynb_checkpoints
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS çöp dosyaları
+.DS_Store
+.AppleDouble
+
+# VS Code ayarları (sadece önemli olanları yükle)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# Blockchain (Hardhat, Foundry vs.)
+node_modules/
+.cache/
+artifacts/
+cache/
+typechain/
+typechain-types/
